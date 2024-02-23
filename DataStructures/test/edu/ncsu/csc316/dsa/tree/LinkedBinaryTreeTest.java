@@ -69,7 +69,7 @@ public class LinkedBinaryTreeTest {
         ten = tree.addRight(two, "ten");
         four = tree.addLeft(three, "four");
         seven = tree.addLeft(ten, "seven");
-        five = tree.addRight(ten,"five");
+        five = tree.addRight(ten, "five");
         eight = tree.addLeft(four, "eight");
         nine = tree.addRight(four, "nine");
     }

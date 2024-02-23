@@ -133,7 +133,7 @@ public abstract class AbstractTree<E> implements Tree<E> {
 
 	@Override
 	public String toString() {
-		StringBuilder sb = new StringBuilder(this.getClass().getSimpleName()+"[\n");
+		StringBuilder sb = new StringBuilder(this.getClass().getSimpleName() + "[\n");
 		toStringHelper(sb, "", root());
 		sb.append("]");
 		return sb.toString();
@@ -182,6 +182,7 @@ public abstract class AbstractTree<E> implements Tree<E> {
 
 		/**
 		 * Return an iterator for the PositionCollection
+		 * @return returns an iterator with position.
 		 */
 		public Iterator<Position<E>> iterator() {
 			return new PositionSetIterator();
