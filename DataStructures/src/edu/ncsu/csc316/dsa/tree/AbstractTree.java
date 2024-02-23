@@ -1,6 +1,5 @@
 package edu.ncsu.csc316.dsa.tree;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 
 import edu.ncsu.csc316.dsa.Position;
