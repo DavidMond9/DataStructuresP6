@@ -80,7 +80,8 @@ public class LinkedBinaryTreeTest {
     @Test
     public void testSet() {
         createTree();
-        //TODO: complete this test case
+        tree.set(five, "hello");
+        assertEquals(tree.right(ten).getElement(), "hello");
     }
     
     /**
